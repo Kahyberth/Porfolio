@@ -1,12 +1,12 @@
 import { Contact } from "@/components/Contact";
-import { Porfolio } from "../components/Porfolio";
+import { Hero } from "../components/Hero";
 import { Projects } from "../components/Projects";
 import { Aboutme } from "@/components/Aboutme";
 
 export default function Home() {
   return (
     <main>
-      <Porfolio />
+      <Hero />
       <section id="aboutme">
         <Aboutme />
       </section>
