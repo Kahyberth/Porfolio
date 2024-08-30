@@ -75,7 +75,7 @@ export function Contact() {
   );
 }
 
-function FacebookIcon(props) {
+function FacebookIcon(props: any) {
   return (
     <svg
       {...props}
@@ -94,7 +94,7 @@ function FacebookIcon(props) {
   );
 }
 
-function GitlabIcon(props) {
+function GitlabIcon(props: any) {
   return (
     <svg
       {...props}
@@ -113,7 +113,7 @@ function GitlabIcon(props) {
   );
 }
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: any) {
   return (
     <svg
       {...props}
@@ -134,7 +134,7 @@ function LinkedinIcon(props) {
   );
 }
 
-function MailIcon(props) {
+function MailIcon(props: any) {
   return (
     <svg
       {...props}
@@ -154,7 +154,7 @@ function MailIcon(props) {
   );
 }
 
-function PhoneIcon(props) {
+function PhoneIcon(props: any) {
   return (
     <svg
       {...props}
@@ -173,7 +173,7 @@ function PhoneIcon(props) {
   );
 }
 
-function TwitterIcon(props) {
+function TwitterIcon(props: any) {
   return (
     <svg
       {...props}

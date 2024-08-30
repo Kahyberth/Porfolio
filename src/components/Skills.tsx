@@ -172,7 +172,7 @@ export function Skills() {
   );
 }
 
-function CloudIcon(props) {
+function CloudIcon(props: any) {
   return (
     <svg
       {...props}
@@ -191,7 +191,7 @@ function CloudIcon(props) {
   );
 }
 
-function CodeIcon(props) {
+function CodeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -211,7 +211,7 @@ function CodeIcon(props) {
   );
 }
 
-function CpuIcon(props) {
+function CpuIcon(props: any) {
   return (
     <svg
       {...props}
@@ -239,7 +239,7 @@ function CpuIcon(props) {
   );
 }
 
-function DatabaseIcon(props) {
+function DatabaseIcon(props: any) {
   return (
     <svg
       {...props}
@@ -260,7 +260,7 @@ function DatabaseIcon(props) {
   );
 }
 
-function GitBranchIcon(props) {
+function GitBranchIcon(props: any) {
   return (
     <svg
       {...props}
@@ -282,7 +282,7 @@ function GitBranchIcon(props) {
   );
 }
 
-function LayoutTemplateIcon(props) {
+function LayoutTemplateIcon(props: any) {
   return (
     <svg
       {...props}
