@@ -1,10 +1,10 @@
 import { Experience } from "./Experience";
-import { Skills } from "./skills";
+import { Skills } from "./Skills";
 
 export function Aboutme() {
   return (
     <>
-      <div className="mx-80">
+      <div className="md:px-6 lg:mx-80">
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6 grid gap-6 lg:grid-cols-2 lg:gap-12">
             <div className="space-y-2">

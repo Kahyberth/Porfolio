@@ -3,7 +3,7 @@ import { BoxIcon, SlashIcon } from "lucide-react";
 
 export function Skills() {
   return (
-    <div className="mx-80">
+    <div className="md:px-6 lg:mx-80">
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="space-y-8">
