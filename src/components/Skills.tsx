@@ -1,4 +1,4 @@
-import { Component1Icon, MagicWandIcon } from "@radix-ui/react-icons";
+import { Component1Icon } from "@radix-ui/react-icons";
 import { BoxIcon, SlashIcon } from "lucide-react";
 
 export function Skills() {
@@ -39,7 +39,8 @@ export function Skills() {
                 </div>
                 <h3 className="text-lg font-semibold">React</h3>
                 <p className="text-center text-muted-foreground">
-                  Skilled in React, with experience in building responsive UIs using hooks and state management.
+                  Skilled in React, with experience in building responsive UIs
+                  using hooks and state management.
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
@@ -98,7 +99,30 @@ export function Skills() {
                 </div>
                 <h3 className="text-lg font-semibold">PHP</h3>
                 <p className="text-center text-muted-foreground">
-                  Experienced in PHP, with strong skills in building and maintaining dynamic web applications.
+                  Experienced in PHP, with strong skills in building and
+                  maintaining dynamic web applications.
+                </p>
+              </div>
+              <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
+                <div className="bg-primary rounded-full p-3 text-primary-foreground">
+                  <CodeIcon className="w-8 h-8" />
+                </div>
+                <h3 className="text-lg font-semibold">Java</h3>
+                <p className="text-center text-muted-foreground">
+                  Proficient in Java, with experience in building robust,
+                  high-performance applications using object-oriented
+                  programming principles and popular frameworks like Spring
+                </p>
+              </div>
+              <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
+                <div className="bg-primary rounded-full p-3 text-primary-foreground">
+                  <DatabaseIcon className="w-8 h-8" />
+                </div>
+                <h3 className="text-lg font-semibold">Spring Boot</h3>
+                <p className="text-center text-muted-foreground">
+                  Experienced in Spring Boot, with skills in developing
+                  production-ready applications with ease using its
+                  auto-configuration and microservices support.
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
@@ -107,7 +131,9 @@ export function Skills() {
                 </div>
                 <h3 className="text-lg font-semibold">Laravel</h3>
                 <p className="text-center text-muted-foreground">
-                Proficient in Laravel, with experience in building robust web applications using its MVC framework and features like Eloquent ORM and Blade templating
+                  Proficient in Laravel, with experience in building robust web
+                  applications using its MVC framework and features like
+                  Eloquent ORM and Blade templating
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
@@ -116,7 +142,8 @@ export function Skills() {
                 </div>
                 <h3 className="text-lg font-semibold">Express</h3>
                 <p className="text-center text-muted-foreground">
-                Experienced in Express.js, with skills in building RESTful APIs and middleware for Node.js applications.
+                  Experienced in Express.js, with skills in building RESTful
+                  APIs and middleware for Node.js applications.
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
@@ -125,7 +152,8 @@ export function Skills() {
                 </div>
                 <h3 className="text-lg font-semibold">Nest</h3>
                 <p className="text-center text-muted-foreground">
-                  Proficient in NestJS, with experience in building scalable and maintainable server-side applications using TypeScript.
+                  Proficient in NestJS, with experience in building scalable and
+                  maintainable server-side applications using TypeScript.
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
@@ -134,7 +162,8 @@ export function Skills() {
                 </div>
                 <h3 className="text-lg font-semibold">Docker</h3>
                 <p className="text-center text-muted-foreground">
-                Skilled in Docker, with experience in containerizing applications and managing development environments.
+                  Skilled in Docker, with experience in containerizing
+                  applications and managing development environments.
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
@@ -143,7 +172,8 @@ export function Skills() {
                 </div>
                 <h3 className="text-lg font-semibold">Kubernetes</h3>
                 <p className="text-center text-muted-foreground">
-                Experienced in Kubernetes, with knowledge of deploying, scaling, and managing containerized applications in a cluster.
+                  Experienced in Kubernetes, with knowledge of deploying,
+                  scaling, and managing containerized applications in a cluster.
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
@@ -152,7 +182,8 @@ export function Skills() {
                 </div>
                 <h3 className="text-lg font-semibold">RabbitMQ</h3>
                 <p className="text-center text-muted-foreground">
-                Proficient in RabbitMQ, with experience in implementing message-driven architectures and asynchronous communication.
+                  Proficient in RabbitMQ, with experience in implementing
+                  message-driven architectures and asynchronous communication.
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
@@ -161,7 +192,9 @@ export function Skills() {
                 </div>
                 <h3 className="text-lg font-semibold">Google Cloud</h3>
                 <p className="text-center text-muted-foreground">
-                Experienced in deploying and managing applications on Google Cloud using services like Compute Engine, Cloud Storage, and Cloud Functions.
+                  Experienced in deploying and managing applications on Google
+                  Cloud using services like Compute Engine, Cloud Storage, and
+                  Cloud Functions.
                 </p>
               </div>
             </div>
