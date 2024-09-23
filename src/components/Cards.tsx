@@ -79,25 +79,6 @@ export function Cards() {
           </p>
         </div>
       </div>
-      <div className="relative overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
-        <img
-          src="/Pokedex.png"
-          alt="Pokedex API"
-          width={500}
-          height={400}
-          className="object-cover w-full h-64"
-          style={{ aspectRatio: "500/400", objectFit: "cover" }}
-        />
-        <div className="p-4 bg-background">
-          <h3 className="text-xl font-bold">Pokedex API Nest</h3>
-          <p className="text-sm text-muted-foreground">
-            This project was done in order to strengthen the knowledge acquired
-            while studying Nestjs, the project is an Api created from 0 inspired
-            by the PokéApi api, which introduces issues of docker, dto, seed,
-            validations, among others.{" "}
-          </p>
-        </div>
-      </div>
     </div>
   );
 }

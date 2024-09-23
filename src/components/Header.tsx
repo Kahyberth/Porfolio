@@ -8,7 +8,7 @@ export function Header() {
         className="flex items-center justify-center"
         prefetch={false}
       >
-        <span className="sr-only">John Doe</span>
+        <span className="sr-only">Kahyberth</span>
       </Link>
       <nav className="ml-auto flex gap-4 sm:gap-6">
         <Link

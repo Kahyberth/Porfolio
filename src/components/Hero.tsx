@@ -10,8 +10,8 @@ export function Hero() {
                   Kahyberth Gonzalez
                 </h1>
                 <p className="max-w-[600px] text-gray-600 dark:text-gray-300 md:text-xl">
-                  I'm Kahyberth Gonzalez, a Backend Developer with a passion for building
-                  efficient and scalable server-side applications.
+                I'm Kahyberth Gonzalez, a Full Stack Developer passionate about building both efficient server-side applications and dynamic, 
+                user-friendly frontend experiences, ensuring seamless integration across the entire stack.
                 </p>
                 <div className="flex space-x-4 mt-6">
                   <a

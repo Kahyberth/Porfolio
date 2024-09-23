@@ -12,12 +12,8 @@ export function Aboutme() {
                 About Me
               </h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I’m Kahyberth, a Backend Developer with over 1 years of
-                experience working with technologies like Node.js, Python, and
-                both SQL and NoSQL databases. I specialize in building and
-                optimizing robust, efficient systems, leveraging frameworks such
-                as Express, Nest, Laravel and Django. I’m also well-versed in
-                SCRUM methodologies for agile project management
+              I'm Kahyberth, a Full Stack Developer working with technologies like Node.js, React, and both SQL and NoSQL databases. 
+              I specialize in building and optimizing full-stack applications, leveraging frameworks such as Express, Next.js, and Django. I'm also well-versed in SCRUM methodologies for agile project management.
               </p>
             </div>
             <Experience />

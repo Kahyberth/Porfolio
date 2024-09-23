@@ -55,6 +55,16 @@ export function Skills() {
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
                 <div className="bg-primary rounded-full p-3 text-primary-foreground">
+                  <LayoutTemplateIcon className="w-8 h-8" />
+                </div>
+                <h3 className="text-lg font-semibold">Tailwind CSS</h3>
+                <p className="text-center text-muted-foreground">
+                Experienced in designing and developing responsive, modern user interfaces using Tailwind CSS, leveraging its utility-first approach to create clean, 
+                maintainable, and highly customizable layouts with minimal code.
+                </p>
+              </div>
+              <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
+                <div className="bg-primary rounded-full p-3 text-primary-foreground">
                   <DatabaseIcon className="w-8 h-8" />
                 </div>
                 <h3 className="text-lg font-semibold">SQL</h3>
@@ -95,12 +105,12 @@ export function Skills() {
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
                 <div className="bg-primary rounded-full p-3 text-primary-foreground">
-                  <CodeIcon className="w-8 h-8" />
+                  <DatabaseIcon className="w-8 h-8" />
                 </div>
-                <h3 className="text-lg font-semibold">PHP</h3>
+                <h3 className="text-lg font-semibold">Django</h3>
                 <p className="text-center text-muted-foreground">
-                  Experienced in PHP, with strong skills in building and
-                  maintaining dynamic web applications.
+                Experienced in deploying and managing web applications using Django, leveraging its powerful ORM, built-in authentication, 
+                and REST framework for building secure, scalable, and maintainable backend systems.
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
@@ -123,17 +133,6 @@ export function Skills() {
                   Experienced in Spring Boot, with skills in developing
                   production-ready applications with ease using its
                   auto-configuration and microservices support.
-                </p>
-              </div>
-              <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
-                <div className="bg-primary rounded-full p-3 text-primary-foreground">
-                  <DatabaseIcon className="w-8 h-8" />
-                </div>
-                <h3 className="text-lg font-semibold">Laravel</h3>
-                <p className="text-center text-muted-foreground">
-                  Proficient in Laravel, with experience in building robust web
-                  applications using its MVC framework and features like
-                  Eloquent ORM and Blade templating
                 </p>
               </div>
               <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
@@ -195,6 +194,16 @@ export function Skills() {
                   Experienced in deploying and managing applications on Google
                   Cloud using services like Compute Engine, Cloud Storage, and
                   Cloud Functions.
+                </p>
+              </div>
+              <div className="flex flex-col items-center gap-4 p-6 rounded-lg bg-background shadow-sm transition-all hover:scale-105 hover:shadow-md">
+                <div className="bg-primary rounded-full p-3 text-primary-foreground">
+                  <BoxIcon className="w-8 h-8" />
+                </div>
+                <h3 className="text-lg font-semibold">Nats.io</h3>
+                <p className="text-center text-muted-foreground">
+                Experienced in deploying and managing real-time messaging systems using NATS.io, leveraging its publish-subscribe, request-reply, 
+                and load-balancing features for scalable and efficient communication between microservices.
                 </p>
               </div>
             </div>
