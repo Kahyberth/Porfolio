@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'MedievalSharp', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1a1a2e;
+  color: white;
+}
+
+.bg-fantasy {
+  background-image: linear-gradient(rgba(26, 26, 46, 0.9), rgba(26, 26, 46, 0.9)),
+    url('/images/15584716-d749-417e-8d7e-bba982fa85ee.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+
