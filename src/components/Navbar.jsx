@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
@@ -8,16 +8,18 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex space-x-8">
             {[
-              { name: 'Home', path: '/' },
-              { name: 'About me', path: '/about' },
-              { name: 'Projects', path: '/projects' },
-              { name: 'Experience', path: '/experience' },
-              { name: 'Contact', path: '/contact' }
+              { name: 'Home', path: 'home' },
+              { name: 'About me', path: 'about' },
+              { name: 'Projects', path: 'projects' },
+              { name: 'Experience', path: 'experience' },
+              { name: 'Contact', path: 'contact' }
             ].map((item) => (
               <Link
                 key={item.name}
                 to={item.path}
-                className="text-gray-300 hover:text-enchanted-500 transition-colors duration-300 font-medieval"
+                smooth={true}
+                duration={500}
+                className="text-gray-300 hover:text-enchanted-500 transition-colors duration-300 font-medieval cursor-pointer"
               >
                 {item.name}
               </Link>
@@ -27,6 +29,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

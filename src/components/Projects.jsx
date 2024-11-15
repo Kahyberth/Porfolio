@@ -3,23 +3,26 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: "Enchanted Realms",
-    description: "A mystical e-commerce platform built with Next.js and GraphQL",
-    image: "https://picsum.photos/400/250",
-    tags: ["Next.js", "GraphQL", "Tailwind"],
+    title: "Café granito marrón",
+description: "Developed a custom e-commerce website for a coffee startup, enabling them to showcase and sell their products directly to " +
+"consumers. Integrated the platform with the WhatsApp API, providing customers with direct communication with the seller before " +
+"finalizing purchases, enhancing the overall user experience",
+    image: "/images/coffe_1.jpg",
+    tags: ["React", "Poketbase", "Jotai"],
     link: "#"
   },
   {
-    title: "Spellbound Analytics",
-    description: "Real-time dashboard for tracking magical metrics",
-    image: "https://picsum.photos/400/251",
-    tags: ["React", "D3.js", "Firebase"],
+    title: "Loan System",
+    description: "Developed a robust loan management platform that facilitated dynamic resource lending and comprehensive report generation."+
+"The system supported advanced access control based on user roles, time frames, geographical locations, and priority levels.",
+    image: "/images/loan system.jpg",
+    tags: ["React", "DrizzleORM", "Postgresql", "Lucia", "Zod", "Git", "Telefunc", "NanoID", "Hono"],
     link: "#"
   },
   {
-    title: "Mystic Messenger",
+    title: "TaskMate",
     description: "Encrypted messaging app for wizards and witches",
-    image: "https://picsum.photos/400/252",
+    image: "/images/taskmate.jpg",
     tags: ["React Native", "Node.js", "WebRTC"],
     link: "#"
   }

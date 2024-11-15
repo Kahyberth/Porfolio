@@ -8,7 +8,7 @@ import Contact from "./Contact";
 const Hero = () => {
   return (
     <>
-      <div className="relative h-screen flex items-center justify-center bg-fantasy">
+      <div id="home" className="relative h-screen flex items-center justify-center bg-fantasy">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -20,7 +20,7 @@ const Hero = () => {
             Full Stack Developer
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-8 font-medieval">
-          I'm Kahyberth Gonzalez, a Full Stack Developer passionate about building both efficient server-side applications and dynamic, user-friendly frontend experiences, ensuring seamless integration across the entire stack.
+            I'm Kahyberth Gonzalez, a Full Stack Developer passionate about building both efficient server-side applications and dynamic, user-friendly frontend experiences, ensuring seamless integration across the entire stack.
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
@@ -32,10 +32,18 @@ const Hero = () => {
         </motion.div>
       </div>
       <Cards />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+      <div id="about">
+        <About />
+      </div>
+      <div id="experience">
+        <Experience />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </>
   );
 };
