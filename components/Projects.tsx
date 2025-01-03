@@ -6,7 +6,7 @@ import Image from 'next/image'
 const projects = [
   { id: 1, title: 'Café granito marrón', description: 'Estuve participanto en el desarrollo de un sitio web de e-commerce personalizado para una empresa de café, permitiéndoles mostrar y vender sus productos directamente a los consumidores. los consumidores', image: '/images/cafe.jpg', link: 'https://cafegranitomarron.com/' },
   { id: 2, title: 'Loan System', description: 'Desarrolle una sólida plataforma de gestión de préstamos que facilitaba el préstamo dinámico de recursos y la generación de informes. El sistema permitía un control de acceso basado en funciones de usuario, plazos, ubicaciones geográficas y niveles de prioridad.', image: '/images/loan system.jpg' },
-  { id: 3, title: 'Talki', description: 'Talki es una aplicación de mensajería y videollamadas, diseñada especialmente para desarrolladores y gamers. Nuestra misión es facilitar una comunicación clara, fluida y productiva para que puedas enfocarte en lo que realmente importa: tus proyectos y tus sesiones de juego.', image: '/images/talki.jpg' },
+  { id: 3, title: 'Talki', description: 'Talki es una aplicación de mensajería y videollamadas, diseñada especialmente para desarrolladores y gamers. Nuestra misión es facilitar una comunicación clara, fluida y productiva para que puedas enfocarte en lo que realmente importa: tus proyectos y tus sesiones de juego.', image: '/images/talki.jpg', link: 'https://talki-drab.vercel.app/' },
 ]
 
 export default function Projects() {

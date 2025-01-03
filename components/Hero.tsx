@@ -20,7 +20,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Desarrollador Full Stack
+          Desarrollador Full-Stack
         </motion.p>
       </div>
     </section>
