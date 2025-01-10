@@ -1,19 +1,16 @@
-import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
-
+import { Header } from '@/components/header'
+import { Hero } from '@/components/hero'
+import { Skills } from '@/components/skills'
+import { Projects } from '@/components/projects'
+import { Contact } from '@/components/contact'
+import { Footer } from '@/components/footer'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
-      <Navbar />
-      <main>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-grow">
         <Hero />
-        <About />
         <Skills />
         <Projects />
         <Contact />
