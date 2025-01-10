@@ -28,8 +28,8 @@ export function Hero() {
 
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = 'cv/Kahyberth_cv.pdf';
-        link.download = 'Kahyberth_cv.pdf';
+        link.href = '/cv/Kahyberth_CV.pdf';
+        link.download = 'Kahyberth_CV.pdf';
         link.click();
     };
 
